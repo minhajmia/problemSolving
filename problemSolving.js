@@ -1,5 +1,5 @@
-function rotateLeft(array, numberPositions) {
-  for (let i = 0; i < numberPositions; i++) {
+function rotateLeft(array, positionOfNumber) {
+  for (let i = 0; i < positionOfNumber; i++) {
     array.push(array.shift());
   }
   return array;
